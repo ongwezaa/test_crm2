@@ -1,0 +1,3 @@
+node_modules
+apps/api/data/app.db
+.DS_Store

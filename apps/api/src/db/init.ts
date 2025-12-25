@@ -1,4 +1,4 @@
-import db from "./connection.js";
+import db from "./connection";
 
 const schema = `
 CREATE TABLE IF NOT EXISTS users (

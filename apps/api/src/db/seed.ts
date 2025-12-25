@@ -1,5 +1,5 @@
 import bcrypt from "bcryptjs";
-import db from "./connection.js";
+import db from "./connection";
 
 const stages = ["Lead", "Qualified", "Proposal", "Negotiation", "Won", "Lost"] as const;
 const taskStatuses = ["Todo", "Doing", "Done"] as const;

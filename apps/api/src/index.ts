@@ -1,13 +1,13 @@
 import express from "express";
 import cors from "cors";
 import morgan from "morgan";
-import authRoutes from "./routes/auth.js";
-import companiesRoutes from "./routes/companies.js";
-import contactsRoutes from "./routes/contacts.js";
-import dealsRoutes from "./routes/deals.js";
-import tasksRoutes from "./routes/tasks.js";
-import dashboardRoutes from "./routes/dashboard.js";
-import { authenticate } from "./utils/auth.js";
+import authRoutes from "./routes/auth";
+import companiesRoutes from "./routes/companies";
+import contactsRoutes from "./routes/contacts";
+import dealsRoutes from "./routes/deals";
+import tasksRoutes from "./routes/tasks";
+import dashboardRoutes from "./routes/dashboard";
+import { authenticate } from "./utils/auth";
 
 const app = express();
 
